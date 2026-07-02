@@ -1,0 +1,69 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.ksm:realestate >-------------------------
+[INFO] Building ksm-realestate 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.5:run (default-cli) > test-compile @ realestate >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ realestate ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ realestate ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ realestate ---
+[INFO] skip non existing resourceDirectory /home/ulrich/Documents/ksm-real-estate/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ realestate ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.5:run (default-cli) < test-compile @ realestate <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.5:run (default-cli) @ realestate ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-06-10T10:05:19.675+01:00  INFO 27372 --- [ksm-realestate] [           main] c.ksm.realestate.RealEstateApplication   : Starting RealEstateApplication using Java 21.0.1 with PID 27372 (/home/ulrich/Documents/ksm-real-estate/backend/target/classes started by ulrich in /home/ulrich/Documents/ksm-real-estate/backend)
+2026-06-10T10:05:19.680+01:00  INFO 27372 --- [ksm-realestate] [           main] c.ksm.realestate.RealEstateApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-06-10T10:05:21.292+01:00  INFO 27372 --- [ksm-realestate] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-10T10:05:21.450+01:00  INFO 27372 --- [ksm-realestate] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 8 JPA repository interfaces.
+2026-06-10T10:05:22.682+01:00  INFO 27372 --- [ksm-realestate] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-10T10:05:22.715+01:00  INFO 27372 --- [ksm-realestate] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-10T10:05:22.716+01:00  INFO 27372 --- [ksm-realestate] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-06-10T10:05:22.838+01:00  INFO 27372 --- [ksm-realestate] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-10T10:05:22.841+01:00  INFO 27372 --- [ksm-realestate] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3047 ms
+2026-06-10T10:05:23.097+01:00  INFO 27372 --- [ksm-realestate] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-10T10:05:23.739+01:00  INFO 27372 --- [ksm-realestate] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ksmdb user=SA
+2026-06-10T10:05:23.743+01:00  INFO 27372 --- [ksm-realestate] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-10T10:05:23.898+01:00  INFO 27372 --- [ksm-realestate] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-10T10:05:23.977+01:00  INFO 27372 --- [ksm-realestate] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-06-10T10:05:24.032+01:00  INFO 27372 --- [ksm-realestate] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-10T10:05:24.488+01:00  INFO 27372 --- [ksm-realestate] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-10T10:05:24.587+01:00  WARN 27372 --- [ksm-realestate] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10T10:05:26.812+01:00  INFO 27372 --- [ksm-realestate] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-10T10:05:26.928+01:00  INFO 27372 --- [ksm-realestate] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10T10:05:27.702+01:00  INFO 27372 --- [ksm-realestate] [           main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-10T10:05:28.739+01:00  WARN 27372 --- [ksm-realestate] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-10T10:05:28.792+01:00  WARN 27372 --- [ksm-realestate] [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2a4739fe-b9aa-41e8-a2cb-1e7f23e391e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-06-10T10:05:29.394+01:00  INFO 27372 --- [ksm-realestate] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@109a462e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@258e5601, org.springframework.security.web.context.SecurityContextHolderFilter@16575bfe, org.springframework.security.web.header.HeaderWriterFilter@267a0b6a, org.springframework.web.filter.CorsFilter@58a06477, org.springframework.security.web.authentication.logout.LogoutFilter@3612a60d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f1dadeb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72259917, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c4335c8, org.springframework.security.web.access.ExceptionTranslationFilter@7a7d25ca, org.springframework.security.web.access.intercept.AuthorizationFilter@7f794b0f]
+2026-06-10T10:05:29.808+01:00  INFO 27372 --- [ksm-realestate] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-06-10T10:05:29.824+01:00  INFO 27372 --- [ksm-realestate] [           main] c.ksm.realestate.RealEstateApplication   : Started RealEstateApplication in 10.99 seconds (process running for 11.664)
+2026-06-10T10:08:04.235+01:00  INFO 27372 --- [ksm-realestate] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-10T10:08:04.237+01:00  INFO 27372 --- [ksm-realestate] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-10T10:08:04.240+01:00  INFO 27372 --- [ksm-realestate] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms

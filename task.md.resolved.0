@@ -1,0 +1,24 @@
+# KSM_Real Estate Development Task List
+
+- [ ] Project Initialization [/]
+    - [ ] Create folder structure
+    - [ ] Initialize Backend (Spring Boot 3.x)
+    - [ ] Initialize Frontend (Next.js 14+)
+- [ ] Database Setup
+    - [ ] Design schema.sql
+    - [ ] Configure PostgreSQL connectivity
+- [ ] Backend Development
+    - [ ] Implement Entities (User, Property, VisitRequest, Payment)
+    - [ ] Implement API endpoints for Public, Auth, Concierge, and Admin
+    - [ ] Implement PDF generation logic (or serve as data for JS)
+- [ ] Frontend Development
+    - [ ] Implementation of core design system (Tailwind)
+    - [ ] Auth Context & Protected Routes
+    - [ ] Visitor Pages (Home, Detail, Search)
+    - [ ] Concierge Dashboard (CRUD properties, View visits)
+    - [ ] Admin Dashboard (Global tables, manage concierges)
+    - [ ] PDF Generation with jsPDF
+- [ ] Verification & Testing
+    - [ ] API Testing
+    - [ ] UI/UX Testing
+    - [ ] Final Walkthrough

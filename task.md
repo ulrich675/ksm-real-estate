@@ -1,0 +1,31 @@
+# KSM_Real Estate Development Task List
+
+## Task 10: Local File Uploads
+- [x] Proprietor local image upload for main & rooms
+
+## Task 11: Platform Stabilization
+- [/] Enable H2 AUTO_SERVER mode (Mixed Mode)
+- [ ] Stabilize start.sh process management
+
+- [x] Project Initialization
+    - [x] Create folder structure
+    - [x] Initialize Backend (Spring Boot 3.x)
+    - [/] Initialize Frontend (Next.js 14+)
+- [x] Database Setup
+    - [x] Design schema.sql
+    - [x] Configure PostgreSQL connectivity
+- [x] Backend Development
+    - [x] Implement Entities (User, Property, VisitRequest, Payment)
+    - [x] Implement API endpoints for Public, Auth, Concierge, and Admin
+    - [ ] Implement PDF generation logic (or serve as data for JS)
+- [ ] Frontend Development
+    - [ ] Implementation of core design system (Tailwind)
+    - [ ] Auth Context & Protected Routes
+    - [ ] Visitor Pages (Home, Detail, Search)
+    - [ ] Concierge Dashboard (CRUD properties, View visits)
+    - [ ] Admin Dashboard (Global tables, manage concierges)
+    - [ ] PDF Generation with jsPDF
+- [ ] Verification & Testing
+    - [ ] API Testing
+    - [ ] UI/UX Testing
+    - [ ] Final Walkthrough
